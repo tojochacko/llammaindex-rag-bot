@@ -1,3 +1,4 @@
 venv
 daata
 .DS_Store
+chroma_db/*
