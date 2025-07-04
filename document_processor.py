@@ -1,8 +1,6 @@
-from llama_indẻx.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from IPython.display import Markdown, display
 import chromadb
 from llama_index.core import Settings
 from llama_index.embeddings.ollama import OllamaEmbedding
